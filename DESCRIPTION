@@ -1,0 +1,17 @@
+Package: BAST1
+Type: Package
+Title: BAST R function library.
+Version: 2.2.2
+Date: 2018-03-02
+Author: Rupert Austin, Will Haese-Hill, Aaron Hayman, Katarzyna Nurzynska, Blesson Chacko
+Maintainer: Will Haese-Hill <whaesehill@bastinc.eu>
+Description: As part of our overall QA revamp, it was decided to formalise our
+    BAST R function library.
+License: What license is it under?
+LazyData: TRUE
+Imports:
+    Rcpp (>= 0.12.12),
+    magick(>= 1.0),
+    curl(>= 3.1)
+LinkingTo: Rcpp
+RoxygenNote: 6.0.1
